@@ -1,0 +1,4 @@
+spec/examples.txt
+.idea/
+.idea/*.xml
+.idea/*.iml
