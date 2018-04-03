@@ -10,17 +10,25 @@ Ground Rules
 
 Problem to Solve
 In today’s challenge, we will be doing some image processing. Create a service that takes in a Base64 Encoded String and outputs a processed Base64 Encoded string. 
+POST
+with body:
+{
+	"encoded" : "${BASE64EncodedString}"
+}
 
 
 Challenge #1:
 Given an image input, change the Primary Text Color to any color than the original. Leave the background as-is.
+http://localhost:8080/fontChange
 
 
 Challenge #2:
 Given an image input, inverse the colors of the image. The text will be "mostly black" and the background white.
+http://localhost:8080/inverse
 
 Extra Credit Challenge #3:
 Given an image input, rotate the image 90 degrees(either direction) via low level operations. Packages that rotate the “file” as whole are not qualified solutions.
+http://localhost:8080/rotate
 
 Assumptions:
 1.	Only happy scenarios will be involved.
@@ -34,7 +42,9 @@ RGB(0,0,0) is Black
 
 Helpful links:
 Base64 file encoder: https://varvy.com/tools/base64/
+
 RGB Color Chart: https://www.rapidtables.com/web/color/RGB_Color.html
+
 Base64 to Image decoder: https://codebeautify.org/base64-to-image-converter
 
 
@@ -47,4 +57,11 @@ iVBORw0KGgoAAAANSUhEUgAAAUAAAAAsCAYAAAAU0WE/AAAMGGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdU
 
 
 ==================================================
+
+
+
+
+
+
+
 
