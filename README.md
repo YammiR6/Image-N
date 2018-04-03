@@ -37,7 +37,9 @@ a.	Don’t worry about error handling.
 3.	Roughly only “black and white” images will be used.
 
 Hints:
+
 RGB(255, 255, 255) is White
+
 RGB(0,0,0) is Black
 
 Helpful links:
